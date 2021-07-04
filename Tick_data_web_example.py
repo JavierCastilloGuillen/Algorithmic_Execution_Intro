@@ -124,10 +124,10 @@ def execute_connection(symbol='ETH/USDT', timeframe='1m'):
     # since the return is on a list format. To see ---> print(raw_data)
     
     # Converting data into a dataframe "[:-1]" since we will check the last closed bar
-    df = pd.DataFrame(raw_data[:-1], columns=['date', 'open', 'high', 'low', 'close', 'volume'])
+    df = pd.DataFrame(raw_data[:-1], columns=['timestamp', 'open', 'high', 'low', 'close', 'volume'])
     
     # Converting date into a readable date format
-    df['date'] = pd.to_datetime(df['date'], unit='ms')
+    df['timestamp'] = pd.to_datetime(df['timestamp'], unit='ms')
     print(f"Executing connection and data processing at... {datetime.now().isoformat()}")
     #print(df)
     complete_df = technical_signals(df)
