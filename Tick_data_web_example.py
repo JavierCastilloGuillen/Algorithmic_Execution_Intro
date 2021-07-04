@@ -93,29 +93,29 @@ def reading_market(df):
     global in_position
 
     print("Looking for signals...")
-    print(df.tail(5))
-    last_row_index = len(df.index) - 1
-    previous_row_index = last_row_index - 1
+    print(df.tail(4))
+    last_row = len(df.index) - 1
+    previous_row = last_row - 1
 
-    if not df['MACD_Signal'][previous_row_index] and df['MACD_Signal'][last_row_index]:
+    if not df['MACD_Signal'][previous_row] and df['MACD_Signal'][last_row]:
         print("Uptrend activated according MACD, BUY SIGNAL triggered")
         if not in_position:
-            order_buy = 'Here goes BUY order' #exchange.create_market_buy_order('ETH/USDT', 1)
+            order_buy = 'Here goes BUY order' #exchange.create_market_buy_order('BTC/USDT', 1)
             print(order_buy)
             in_position = True
         else:
             print("Already in position, skip BUY signal")
     
-    if df['MACD_Signal'][previous_row_index] and not df['MACD_Signal'][last_row_index]:
+    if df['MACD_Signal'][previous_row] and not df['MACD_Signal'][last_row]:
         if in_position:
             print("Downtrend activated, SELL SIGNAL triggered")
-            order_sell = 'Here goes SELL order' # exchange.create_market_sell_order('ETH/USDT', 1)
+            order_sell = 'Here goes SELL order' # exchange.create_market_sell_order('BTC/USDT', 1)
             print(order_sell)
             in_position = False
         else:
             print("Not in position, skip SELL Signal")
 
-def execute_connection(symbol='ETH/USDT', timeframe='1m'):
+def execute_connection(symbol='BTC/USDT', timeframe='1m'):
     '''
     Function for data retreival, processing, and cleaning into dataframe to be used 
     later for technical indicators implementation
@@ -134,7 +134,7 @@ def execute_connection(symbol='ETH/USDT', timeframe='1m'):
     reading_market(complete_df)
 
 # Example of data
-#execute_connection(symbol='ETH/USDT', timeframe='15m')
+#execute_connection(symbol='BTC/USDT', timeframe='15m')
 
 # Running and execution
 schedule.every(10).seconds.do(execute_connection)
