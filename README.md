@@ -30,9 +30,7 @@ Para ello usaremos:
 para recuperar los datos brutos y ejecutar las órdenes (compra / venta). https://ccxt.readthedocs.io/en/latest/manual.html
 2. pandas -> La biblioteca común para procesar la recepción de datos sin procesar y trabajar con ellos. https://pandas.pydata.org/docs/
 3. ta -> Para implementar indicadores técnicos (veremos la opción de calcularlos manualmente o usar una biblioteca) https://technical-analysis-library-in-python.readthedocs.io/en/latest/index.html
-4. schedule -> para ejecutar el script cada (x) segundos / minutos / horas ... para recuperación y proceso de datos
-
-https://schedule.readthedocs.io/en/stable/
+4. schedule -> para ejecutar el script cada (x) segundos / minutos / horas ... para recuperación y proceso de datos. https://schedule.readthedocs.io/en/stable/
 
 
 # DESCARGO DE RESPONSABILIDAD
