@@ -27,18 +27,12 @@ La clase se realizó en fin de semana y este mercado permanece abierto :)
 Para ello usaremos:
 
 1. biblioteca ccxt -> que permite conectar fácilmente los intercambios de criptomonedas más comunes
-para recuperar los datos brutos y ejecutar las órdenes (compra / venta).
-
-https://ccxt.readthedocs.io/en/latest/manual.html
+para recuperar los datos brutos y ejecutar las órdenes (compra / venta). https://ccxt.readthedocs.io/en/latest/manual.html
 
 
-2. pandas -> La biblioteca común para procesar la recepción de datos sin procesar y trabajar con ellos.
+2. pandas -> La biblioteca común para procesar la recepción de datos sin procesar y trabajar con ellos. https://pandas.pydata.org/docs/
 
-https://pandas.pydata.org/docs/
-
-3. ta biblioteca -> Para implementar indicadores técnicos (veremos la opción de calcularlos manualmente o usar una biblioteca)
-
-https://technical-analysis-library-in-python.readthedocs.io/en/latest/index.html
+3. ta biblioteca -> Para implementar indicadores técnicos (veremos la opción de calcularlos manualmente o usar una biblioteca) https://technical-analysis-library-in-python.readthedocs.io/en/latest/index.html
 
 4º- función de programación -> para ejecutar el script cada (x) segundos / minutos / horas ... para recuperación y proceso de datos
 
@@ -79,22 +73,14 @@ What we WON'T cover on this lesson?
 To do so, we will use:
 
 1. ccxt library -> Which allows to easily connect the most common cryptocurrency exchanges
-in order to retreive the raw data, and execute the orders (buy/sell).
-
-https://ccxt.readthedocs.io/en/latest/manual.html
+in order to retreive the raw data, and execute the orders (buy/sell). https://ccxt.readthedocs.io/en/latest/manual.html
 
 
-2. pandas -> The common library to process the raw data reception and work with it.
+2. pandas -> The common library to process the raw data reception and work with it. https://pandas.pydata.org/docs/
 
-https://pandas.pydata.org/docs/
+3. ta library -> To implement technical indicators (we will see the option to calculate them manually or use a library) https://technical-analysis-library-in-python.readthedocs.io/en/latest/index.html
 
-3. ta library -> To implement technical indicators (we will see the option to calculate them manually or use a library)
-
-https://technical-analysis-library-in-python.readthedocs.io/en/latest/index.html
-
-4º- schedule function -> to run the script every (x) seconds/minutes/hours... for data retreival and process
-
-https://schedule.readthedocs.io/en/stable/
+4º- schedule function -> to run the script every (x) seconds/minutes/hours... for data retreival and process https://schedule.readthedocs.io/en/stable/
 
 
 # DISCLAIMER
