@@ -83,7 +83,6 @@ def technical_signals(df):
             df['MACD_Signal'][current] = df['MACD_Signal'][previous]
     return df
 
-
 # Defines if we're in the market or not, to avoid submit orders once we've submited one on the same direction.
 in_position = False
 def reading_market(df):
