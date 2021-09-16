@@ -87,7 +87,8 @@ def technical_signals(df):
 in_position = False
 def reading_market(df):
     '''
-    Function to analyze the market looking for signals according to our logics
+    Function to analyze the market looking for signals according to our logics.
+
     '''
     global in_position
 
