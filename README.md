@@ -1,6 +1,6 @@
 # [ES] & [EN] 
 Content available in Spanish and English.
-# [ES] Introducción a la ejecución algorítmica de mercado (Clase)
+## [ES] Introducción a la ejecución algorítmica de mercado (Clase)
 
 Con este script podremos acceder a datos de mercado, procesarlos y determinar
 señales técnicas de acuerdo con nuestra estrategia operativa.
@@ -33,14 +33,14 @@ para recuperar los datos brutos y ejecutar las órdenes (compra / venta). https:
 4. schedule -> para ejecutar el script cada (x) segundos / minutos / horas ... para recuperación y proceso de datos. https://schedule.readthedocs.io/en/stable/
 
 
-# DESCARGO DE RESPONSABILIDAD
+### DESCARGO DE RESPONSABILIDAD
 
-No utilice las condiciones del video para ejecutar órdenes reales. ES PARA FINES EDUCATIVOS.
+No utilice las lógicas de señales del video para ejecutar órdenes reales. ES PARA FINES EDUCATIVOS.
 
-La información general contenida en este repositorio / video no se puede considerar como un consejo o recomendación financiera. Además, la información publicada no debe ser considerada como un elemento de decisión para comprar o vender ningún tipo de activo. Invertir en mercados financieros como CFD, forex, acciones, derivados, etc., es una actividad que conlleva el riesgo de perder su dinero. No invierta en mercados financieros si no comprende la gestión y las consecuencias de esta actividad. Finalmente, recuerde que los resultados basados ​​en el pasado no son indicativos de resultados futuros.
+La información general contenida en este repositorio / video no se puede considerar como un consejo o recomendación financiera. Además, la información publicada no debe ser considerada como un elemento de decisión para comprar o vender ningún tipo de activo. Invertir en mercados financieros como CFD, forex, acciones, derivados, etc., es una actividad que conlleva el riesgo de perder su dinero. No invierta en mercados financieros si no comprende la gestión y las consecuencias de esta actividad. Finalmente, recuerde que los resultados basados en el pasado no son indicativos de resultados futuros.
 
 
-# [EN] Introduction to Market Algorithmic Execution (Lesson)
+## [EN] Introduction to Market Algorithmic Execution (Lesson)
 
 With this script we will be able to retreive data from the exchange, process it, and determine 
 technical signals according to our trading strategy. 
@@ -73,8 +73,8 @@ in order to retreive the raw data, and execute the orders (buy/sell). https://cc
 4. schedule -> to run the script every (x) seconds/minutes/hours... for data retreival and process https://schedule.readthedocs.io/en/stable/
 
 
-# DISCLAIMER
+### DISCLAIMER
 
-Don't use the conditions on the video to execute real orders. IS FOR EDUCATIONAL PURPOSE. 
+Don't use the logic setup on the video to execute real orders. IS FOR EDUCATIONAL PURPOSE. 
 
 The general information contained in this repository/video can't be considered as financial advice or recommendation. In addition, the information published should not be considered as a decision element to buy or sell any type of asset. Investing in financial markets such as CFDs, forex, stocks, derivatives, etc., is an activity that carries risk of losing your money. Do not invest in financial markets if you do not understand the management and consequences of this activity. Finally, remember that results based on the past are not indicative of future results.
